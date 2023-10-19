@@ -1,0 +1,18 @@
+.featured-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 27px; 
+    max-width: 1300px; 
+    margin: 5% auto; 
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  @media(max-width: 767px){
+    .featured-items {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 23px; 
+      padding: 0 10% 0 10% ; 
+    }
+  }
